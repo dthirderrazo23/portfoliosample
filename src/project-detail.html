@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../node_modules/aos/dist/aos.css">
+    <title>Document</title>
+    <style>
+        
+    </style>
+ 
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg py-3 fixed-top project-detail-nav">
+        <div class="container">
+            <a class="navbar-brand ps-2" href="index2.html" >
+                <img src="../image/logo2.png" alt="Logo" class="rounded-circle img-fluid logo">
+            </a>
+            <button class="navbar-toggler text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            
+            <div class="collapse navbar-collapse text-center" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item"><a class="nav-link " href="index2.html"></i>HOME</a></li>
+                    <li class="nav-item"><a class="nav-link " href="index2.html#about">ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-link " href="index2.html#portfolio">PORTFOLIO</a></li>
+                    <li class="nav-item"><a class="nav-link " href="index2.html#services">SERVICES</a></li>
+                    <li class="nav-item"><a class="nav-link " href="index2.html#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="project-detail">
+        <div class="py-5">
+            <div class="text-center text-uppercase mt-5 mb-3 ">
+                <h2>Project details</h2>
+            </div>
+            <div class="container p-3">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="project-box p-2">
+                            <div id="portfolio-slider" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#portfolio-slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#portfolio-slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#portfolio-slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner w-100">
+                                    <div class="carousel-item active c-item">
+                                        <img src="../image/portfolio/portfolio-details-1.jpg" class="d-block h-100 w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item c-item">
+                                        <img src="../image/portfolio/portfolio-details-2.jpg" class="d-block h-100 w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item c-item">
+                                        <img src="../image/portfolio/portfolio-details-3.jpg" class="d-block h-100 w-100" alt="...">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#portfolio-slider" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#portfolio-slider" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="project-box p-2">
+                            <h4>Project Information</h4>
+                            <ul class="list-unstyled">
+                                <li><strong>Category</strong>: Web design</li>
+                                <li><strong>Client</strong>: Company</li>
+                                <li><strong>Project date</strong>: 01 August, 2023</li>
+                                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                            </ul>
+                        </div>
+                        <div class="project-box p-2 mt-3">
+                            <h5>Exampple of Portfolio Details</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, in harum. Iure, dicta, sunt maiores vero dolore numquam in cumque itaque commodi mollitia earum error totam magnam. Rem, voluptatum repellendus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+  <footer id="footer" class="shadow">
+    <div class="container-fluid mt-0 p-4 text-center" >
+        <a href="index2.html"><img src="../image/logo2.png" alt="Logo" class="rounded-circle img-fluid logo" style="width: 100px; height: 100px;"></a>
+      <div class="container py-4" >
+        <a href="https://facebook.com/dthirderrazo1968" target="_blank" class="bi bi-facebook btn btn-outline-info mx-2"></a>
+        <a href="https://instagram.com" target="_blank" class="bi bi-instagram btn btn-outline-info mx-2"></a>
+        <a href="https://tiktok.com" target="_blank" class="bi bi-tiktok btn btn-outline-info mx-2" ></a>
+        <a href="https://www.linkedin.com/in/jose-antonio-iii-errazo-672262246/" target="_blank" class="bi bi-linkedin btn btn-outline-info mx-2" ></a>
+        <a href="https://github.com/dthirderrazo23" target="_blank" class="bi bi-github btn btn-outline-info mx-2" ></a>
+      </div>
+      <p> &copy; Copyright <span id="curYr"></span>. All Rights Reserved</p>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="main.js"></script>
+  <script src="../node_modules/aos/dist/aos.js"></script>
+</body>
+</html>

@@ -1,0 +1,220 @@
+html {
+  scroll-behavior: smooth;
+}
+h1, h2, h3, h4, h5, p, strong {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  
+}
+body {
+  background-color: #1f2122;
+  color: white;
+}
+.logo {
+  width: 45px;
+  height: 45px;
+  background-color: #66fcf1;
+ }
+ .logo-text {
+  color: #66fcf1;
+ }
+
+.navbar {
+  transition: all 0.5s;
+}
+.nav-link {
+  color: #66fcf1;
+  position: relative;
+  margin: 10px;
+}
+.nav-link:hover {
+  color: #66fcf1;
+  opacity: 0.8;
+}
+.nav-link::after {
+  content: '';
+  opacity: 0;
+  transition: all 0.2s;
+  height: 2px;
+  width: 100%;
+  background-color: #66fcf1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.nav-link:hover::after{
+  opacity: 1;
+}
+.nav-link:active{
+  opacity: 1;
+}
+.navbar-scrolled {
+  background-color: #27292a;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+#home-nav button {
+  border-color: #66fcf1;
+  color: #66fcf1;
+}
+#about .container,
+#certificate .container,
+#skills .container,
+#portfolio .container,
+#services .container,
+#contact .container,
+#project-detail .container {
+  background: rgba(0, 0, 0, 0.9);
+  box-shadow:  0px 0px 3px 1px #66fcf1;
+}
+.resume-btn {
+  background-color: #66fcf1;
+  color: black;
+}
+.resume-btn:hover {
+  background-color: transparent;
+  color: #66fcf1;
+  border-color: #66fcf1;
+}
+ h2 {
+  color: #66fcf1;
+}
+#about h4 {
+  color: #66fcf1;
+}
+#home {
+  width: 100%;
+  height: 100vh;
+  background: url("../image/wall.jpg") top center;
+  background-size: cover;
+}
+@media screen and (max-width: 480px) {
+  #home button {
+    width: 100%;
+  }
+}
+
+#home h1 {
+  color: #66fcf1;
+}
+#home a,
+#footer a {
+  border-color: #66fcf1;
+  color:  #66fcf1;
+  border-radius: 50%;
+}
+#home a:hover {
+  transform: scale(1.1) ;
+  background-color: #66fcf1;
+  border-color: #66fcf1;
+  color: black;
+}
+#footer a:hover {
+  transform: scale(1.1) ;
+  background-color: #66fcf1;
+  border-color: #66fcf1;
+  color: black;
+}
+#contact ul li i {
+  background-color: #66fcf1;
+  color: black;
+  
+}
+#contact strong {
+  font-size: 17px;
+}
+#contact input,
+#contact textarea {
+  background-color: rgba(0, 0, 0, 0.9);
+  border-color: #66fcf1;
+}
+#contact button {
+  border-color: #66fcf1;
+  color:  #66fcf1;
+}
+#contact button:hover {
+  transform: scale(1.1) ;
+  background-color: #66fcf1;
+  border-color: #66fcf1;
+  color: black;
+}
+#certificate a {
+  text-decoration: none;
+}
+#skills .skill-box {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.08);
+}
+#skills .skill-box:hover {
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: 3px 3px 6px 3px #66fcf1;
+  transition: 0.3s;
+}
+#skills .skill-box img {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+}
+#skills .skill-box h3 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 16px;
+}
+#skills .skill-box h3 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 16px;
+}
+#about .about-box,
+#certificate .certificate-box,
+#portfolio .portfolio-box,
+#services .services-box,
+#contact .contact-box,
+#project-detail .project-box {
+  background: rgba(255, 255, 255, 0.08);
+}
+#portfolio .img-container {
+  position: relative;
+  width: fit-content;
+  width:-moz-fit-content;
+  overflow: hidden;
+
+}
+#portfolio .img-container:hover {
+  box-shadow: 3px 3px 6px 3px #66fcf1;  
+}        
+#portfolio .img {
+  display: block;
+}
+#portfolio .img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+#portfolio .img-overlay:hover {
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  opacity: 1;
+}
+#footer {
+  background-color: #27292a; 
+  color: white;
+}
+#project-detail{
+  background: url(../image/wall.jpg);
+  background-size: cover;
+}
+.project-detail-nav {
+  background-color: #27292a;
+}
